@@ -3,7 +3,7 @@
 A Streamlit-based web tool that validates email addresses for syntax correctness, MX record presence, and optionally SMTP recipient deliverability.
 It’s designed for quick verification of email lists and for testing emails.
 
-Test out the live app here: [Email Checker App](https://e-mail-checker.streamlit.app/)
+Test out the live app here: [Email Checker App](https://e-mail-validation.streamlit.app/)
 
 ## Features
 
