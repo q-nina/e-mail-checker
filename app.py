@@ -142,3 +142,16 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+st.markdown("---")
+st.markdown(
+    """
+    <div style='text-align: center; color: gray; font-size: 0.9em;'>
+        © 2025 q-nina — <a href="https://github.com/q-nina/e-mail-checker.git" target="_blank">GitHub Repository</a> <br>
+    
+    **Feedback or issues?**  
+    Please report them on [GitHub Issues](https://github.com/q-nina/e-mail-checker/issues)
+    </div>
+    """,
+    unsafe_allow_html=True
+)
