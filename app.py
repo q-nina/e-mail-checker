@@ -8,14 +8,14 @@ EXAMPLE_INPUT = "support-in@google.com, simple@example.com, user@outlook.com, jo
 
 st.title("Email Syntax with MX and SMTP Validation")
 st.markdown(f"""
-This  app allows you to validate email addresses for correct syntax, check for MX records, and optionally verify SMTP recipient acceptance.
+This app allows you to validate email addresses for correct syntax, check for MX records, and optionally verify deliverability with SMTP recipient acceptance.
 
 Features:
+- **Without ads and data collection**
 - Syntax validation with error highlighting and position indicator
 - MX record lookup for domain verification
 - Optional SMTP recipient check for deliverability
 - Results displayed in a table, downloadable as CSV
-- Use this tool to quickly assess the validity and deliverability of email addresses.
 
 Try out the tool with this sample input:
 
@@ -32,6 +32,8 @@ with st.expander("See additional notes:"):
 - Outlook emails usually cannot be verified via SMTP, but MX records are returned.
 - Gmail emails can be verified via SMTP.
 - Other domains may vary, but often if MX records exist, the email can be valid even if "SMTP check: No responsive mail servers found".
+    
+See footnotes at the bottom of the app for more information.
     """)
 
 if st.button("Insert Example Input", help="Insert Example Input into the text area. Click \"Check Emails\" to run the example."):
