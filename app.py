@@ -8,7 +8,9 @@ EXAMPLE_INPUT = "support-in@google.com, simple@example.com, user@outlook.com, jo
 
 st.title("Email Syntax with MX and SMTP Validation")
 st.markdown(f"""
-This app allows you to validate email addresses for correct syntax, check for MX records, and optionally verify deliverability with SMTP recipient acceptance.
+Reliable email validation is essential to ensure successful communication and maintain high email deliverability by validating addresses thoroughly.
+
+This app allows you to validate email addresses for correct syntax, check for MX records, and optionally verify deliverability with SMTP recipient acceptance, all with user privacy in mind..
 
 Features:
 - **Without ads and data collection**
